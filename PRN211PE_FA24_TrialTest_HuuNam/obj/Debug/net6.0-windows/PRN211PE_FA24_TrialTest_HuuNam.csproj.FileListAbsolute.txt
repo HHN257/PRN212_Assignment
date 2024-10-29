@@ -66,3 +66,4 @@ C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\PRN211PE_FA24_Tr
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\PRN211PE_FA24_TrialTest_HuuNam\obj\Debug\net6.0-windows\PRN211PE_FA24_TrialTest_HuuNam.pdb
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\PRN211PE_FA24_TrialTest_HuuNam\obj\Debug\net6.0-windows\PRN211PE_FA24_TrialTest_HuuNam.genruntimeconfig.cache
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\PRN211PE_FA24_TrialTest_HuuNam\obj\Debug\net6.0-windows\ref\PRN211PE_FA24_TrialTest_HuuNam.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\PRN211PE_FA24_TrialTest_HuuNam\obj\Debug\net6.0-windows\PRN211PE_FA24_TrialTest_HuuNam.sourcelink.json

@@ -1,10 +1,13 @@
 using Candidate_DAO;
+using Candidate_Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddScoped<IHRAccountRepo, HRAccountRepo>();
 
 builder.Services.AddDbContext<CandidateManagementContext>(options =>
 	options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnect")));

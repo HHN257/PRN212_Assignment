@@ -43,7 +43,7 @@ namespace PRN211PE_FA24_TrialTest_HuuNam
 
             } else
             {
-                MessageBox.Show("Nuh uh");
+                MessageBox.Show("Login Failed");
             }
 
          }

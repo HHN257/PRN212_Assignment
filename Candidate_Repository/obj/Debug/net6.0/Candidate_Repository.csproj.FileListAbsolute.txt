@@ -15,3 +15,4 @@ C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Reposi
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Repository\obj\Debug\net6.0\refint\Candidate_Repository.dll
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Repository\obj\Debug\net6.0\Candidate_Repository.pdb
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Repository\obj\Debug\net6.0\ref\Candidate_Repository.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Repository\obj\Debug\net6.0\Candidate_Repository.sourcelink.json

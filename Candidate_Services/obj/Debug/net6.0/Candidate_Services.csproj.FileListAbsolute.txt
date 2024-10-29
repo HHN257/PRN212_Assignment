@@ -17,3 +17,4 @@ C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Servic
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Services\obj\Debug\net6.0\refint\Candidate_Services.dll
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Services\obj\Debug\net6.0\Candidate_Services.pdb
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Services\obj\Debug\net6.0\ref\Candidate_Services.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Services\obj\Debug\net6.0\Candidate_Services.sourcelink.json

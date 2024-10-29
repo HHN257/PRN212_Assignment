@@ -2,16 +2,17 @@
 @model CandidateManagement_RazorPages.Pages.JobPosting.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Job Postings";
 }
 
-<h1>Index</h1>
+<h1 class="text-center mb-4">Job Postings</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
+<p class="text-center">
+    <a asp-page="Create" class="btn btn-success mb-3">Create New Job Posting</a>
 </p>
-<table class="table">
-    <thead>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.JobPosting[0].JobPostingTitle)
@@ -22,27 +23,28 @@
             <th>
                 @Html.DisplayNameFor(model => model.JobPosting[0].PostedDate)
             </th>
-            <th></th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.JobPosting) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.JobPostingTitle)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PostedDate)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.PostingId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.PostingId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.PostingId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.JobPosting)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobPostingTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostedDate)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.PostingId" class="btn btn-primary btn-sm me-1">Edit</a>
+                    <a asp-page="./Details" asp-route-id="@item.PostingId" class="btn btn-info btn-sm me-1">Details</a>
+                    <a asp-page="./Delete" asp-route-id="@item.PostingId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

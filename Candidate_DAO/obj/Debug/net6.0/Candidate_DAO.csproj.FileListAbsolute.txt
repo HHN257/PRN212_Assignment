@@ -13,3 +13,4 @@ C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_DAO\ob
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_DAO\obj\Debug\net6.0\refint\Candidate_DAO.dll
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_DAO\obj\Debug\net6.0\Candidate_DAO.pdb
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_DAO\obj\Debug\net6.0\ref\Candidate_DAO.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_DAO\obj\Debug\net6.0\Candidate_DAO.sourcelink.json

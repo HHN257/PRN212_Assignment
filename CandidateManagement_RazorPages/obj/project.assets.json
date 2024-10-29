@@ -3951,6 +3951,32 @@
         "runtime": {
           "bin/placeholder/Candidate_DAO.dll": {}
         }
+      },
+      "Candidate_Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Candidate_DAO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Candidate_Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Candidate_Repository.dll": {}
+        }
+      },
+      "Candidate_Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Candidate_Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Candidate_Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Candidate_Services.dll": {}
+        }
       }
     }
   },
@@ -10943,12 +10969,24 @@
       "type": "project",
       "path": "../Candidate_DAO/Candidate_DAO.csproj",
       "msbuildProject": "../Candidate_DAO/Candidate_DAO.csproj"
+    },
+    "Candidate_Repository/1.0.0": {
+      "type": "project",
+      "path": "../Candidate_Repository/Candidate_Repository.csproj",
+      "msbuildProject": "../Candidate_Repository/Candidate_Repository.csproj"
+    },
+    "Candidate_Services/1.0.0": {
+      "type": "project",
+      "path": "../Candidate_Services/Candidate_Services.csproj",
+      "msbuildProject": "../Candidate_Services/Candidate_Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Candidate_BusinessObject >= 1.0.0",
       "Candidate_DAO >= 1.0.0",
+      "Candidate_Repository >= 1.0.0",
+      "Candidate_Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.35",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.35",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.35",
@@ -10988,6 +11026,12 @@
             },
             "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj": {
               "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj"
+            },
+            "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj": {
+              "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj"
+            },
+            "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj": {
+              "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj"
             }
           }
         }

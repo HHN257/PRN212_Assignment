@@ -280,3 +280,8 @@ C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagem
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\obj\Debug\net6.0\CandidateManagement_RazorPages.pdb
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\obj\Debug\net6.0\CandidateManagement_RazorPages.genruntimeconfig.cache
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\obj\Debug\net6.0\ref\CandidateManagement_RazorPages.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\bin\Debug\net6.0\Candidate_Repository.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\bin\Debug\net6.0\Candidate_Repository.pdb
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\obj\Debug\net6.0\CandidateManagement_RazorPages.sourcelink.json
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\bin\Debug\net6.0\Candidate_Services.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\CandidateManagement_RazorPages\bin\Debug\net6.0\Candidate_Services.pdb

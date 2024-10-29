@@ -42,26 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ACER Nitro/source/repos/PRN211PE_FA24_TrialTest_HuuNam/CandidateManagement_RazorPages/Pages/HRAccount/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJBY2NvdW50XENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ACER Nitro/source/repos/PRN211PE_FA24_TrialTest_HuuNam/CandidateManagement_RazorPages/Pages/HRAccount/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJBY2NvdW50XERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ACER Nitro/source/repos/PRN211PE_FA24_TrialTest_HuuNam/CandidateManagement_RazorPages/Pages/HRAccount/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJBY2NvdW50XERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ACER Nitro/source/repos/PRN211PE_FA24_TrialTest_HuuNam/CandidateManagement_RazorPages/Pages/HRAccount/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJBY2NvdW50XEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ACER Nitro/source/repos/PRN211PE_FA24_TrialTest_HuuNam/CandidateManagement_RazorPages/Pages/HRAccount/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJBY2NvdW50XEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ACER Nitro/source/repos/PRN211PE_FA24_TrialTest_HuuNam/CandidateManagement_RazorPages/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

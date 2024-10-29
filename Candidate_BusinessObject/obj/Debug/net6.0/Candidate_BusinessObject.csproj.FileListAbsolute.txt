@@ -12,3 +12,4 @@ C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_Busine
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_BusinessObject\obj\Debug\net6.0\Candidate_BusinessObject.pdb
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_BusinessObject\obj\Debug\net6.0\Candidate_BusinessObject.genruntimeconfig.cache
 C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_BusinessObject\obj\Debug\net6.0\ref\Candidate_BusinessObject.dll
+C:\Users\ACER Nitro\source\repos\PRN211PE_FA24_TrialTest_HuuNam\Candidate_BusinessObject\obj\Debug\net6.0\Candidate_BusinessObject.sourcelink.json

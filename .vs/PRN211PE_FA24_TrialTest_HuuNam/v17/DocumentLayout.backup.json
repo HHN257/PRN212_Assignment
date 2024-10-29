@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0975CAD8-3F56-44B7-81FB-AEC39AF4337F}|CandidateManagement_RazorPages\\CandidateManagement_RazorPages.csproj|c:\\users\\acer nitro\\source\\repos\\prn211pe_fa24_trialtest_huunam\\candidatemanagement_razorpages\\pages\\candidatemanage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0975CAD8-3F56-44B7-81FB-AEC39AF4337F}|CandidateManagement_RazorPages\\CandidateManagement_RazorPages.csproj|solutionrelative:candidatemanagement_razorpages\\pages\\candidatemanage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0975CAD8-3F56-44B7-81FB-AEC39AF4337F}|CandidateManagement_RazorPages\\CandidateManagement_RazorPages.csproj|c:\\users\\acer nitro\\source\\repos\\prn211pe_fa24_trialtest_huunam\\candidatemanagement_razorpages\\pages\\candidatemanage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0975CAD8-3F56-44B7-81FB-AEC39AF4337F}|CandidateManagement_RazorPages\\CandidateManagement_RazorPages.csproj|solutionrelative:candidatemanagement_razorpages\\pages\\candidatemanage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\CandidateManagement_RazorPages\\Pages\\CandidateManage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CandidateManagement_RazorPages\\Pages\\CandidateManage\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\CandidateManagement_RazorPages\\Pages\\CandidateManage\\Edit.cshtml",
+              "RelativeToolTip": "CandidateManagement_RazorPages\\Pages\\CandidateManage\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:54:46.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\CandidateManagement_RazorPages\\Pages\\CandidateManage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CandidateManagement_RazorPages\\Pages\\CandidateManage\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\CandidateManagement_RazorPages\\Pages\\CandidateManage\\Delete.cshtml",
+              "RelativeToolTip": "CandidateManagement_RazorPages\\Pages\\CandidateManage\\Delete.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:53:46.562Z",
+              "EditorCaption": ""
             }
           ]
         }

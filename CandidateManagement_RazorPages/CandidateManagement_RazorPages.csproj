@@ -9,6 +9,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Candidate_BusinessObject\Candidate_BusinessObject.csproj" />
     <ProjectReference Include="..\Candidate_DAO\Candidate_DAO.csproj" />
+    <ProjectReference Include="..\Candidate_Repository\Candidate_Repository.csproj" />
+    <ProjectReference Include="..\Candidate_Services\Candidate_Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

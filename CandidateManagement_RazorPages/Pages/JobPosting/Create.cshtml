@@ -2,48 +2,55 @@
 @model CandidateManagement_RazorPages.Pages.JobPosting.CreateModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Job Posting";
 }
 
-<h1>Create</h1>
+<h1 class="text-center mb-4">Create Job Posting</h1>
 
-<h4>JobPosting</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Job Posting Details</h4>
+        <hr />
         <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-group mb-3">
                 <label asp-for="JobPosting.PostingId" class="control-label"></label>
                 <input asp-for="JobPosting.PostingId" class="form-control" />
                 <span asp-validation-for="JobPosting.PostingId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="JobPosting.JobPostingTitle" class="control-label"></label>
                 <input asp-for="JobPosting.JobPostingTitle" class="form-control" />
                 <span asp-validation-for="JobPosting.JobPostingTitle" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="JobPosting.Description" class="control-label"></label>
-                <input asp-for="JobPosting.Description" class="form-control" />
+                <textarea asp-for="JobPosting.Description" class="form-control" rows="4"></textarea>
                 <span asp-validation-for="JobPosting.Description" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="JobPosting.PostedDate" class="control-label"></label>
-                <input asp-for="JobPosting.PostedDate" class="form-control" />
+                <input asp-for="JobPosting.PostedDate" class="form-control" type="date" />
                 <span asp-validation-for="JobPosting.PostedDate" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div>
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
+<div class="mt-3">
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

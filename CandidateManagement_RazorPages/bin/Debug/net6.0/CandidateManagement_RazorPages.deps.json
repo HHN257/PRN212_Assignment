@@ -10,6 +10,8 @@
         "dependencies": {
           "Candidate_BusinessObject": "1.0.0",
           "Candidate_DAO": "1.0.0",
+          "Candidate_Repository": "1.0.0",
+          "Candidate_Services": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.35",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.35",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.35",
@@ -2694,6 +2696,28 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Candidate_Repository/1.0.0": {
+        "dependencies": {
+          "Candidate_DAO": "1.0.0"
+        },
+        "runtime": {
+          "Candidate_Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Candidate_Services/1.0.0": {
+        "dependencies": {
+          "Candidate_Repository": "1.0.0"
+        },
+        "runtime": {
+          "Candidate_Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -4277,6 +4301,16 @@
       "sha512": ""
     },
     "Candidate_DAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Candidate_Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Candidate_Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

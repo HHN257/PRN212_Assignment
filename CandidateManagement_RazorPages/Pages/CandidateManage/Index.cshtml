@@ -2,16 +2,17 @@
 @model CandidateManagement_RazorPages.Pages.CandidateManage.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Candidate Profiles";
 }
 
-<h1>Index</h1>
+<h1 class="text-center mb-4">Candidate Profiles</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
+<p class="text-center">
+    <a asp-page="Create" class="btn btn-success mb-3">Create New</a>
 </p>
-<table class="table">
-    <thead>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.CandidateProfile[0].Fullname)
@@ -28,33 +29,34 @@
             <th>
                 @Html.DisplayNameFor(model => model.CandidateProfile[0].Posting)
             </th>
-            <th></th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.CandidateProfile) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Fullname)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Birthday)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProfileShortDescription)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProfileUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Posting.PostingId)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.CandidateId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.CandidateId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.CandidateId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.CandidateProfile)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fullname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProfileShortDescription)
+                </td>
+                <td>
+                    <a href="@item.ProfileUrl" target="_blank">@Html.DisplayFor(modelItem => item.ProfileUrl)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Posting.PostingId)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.CandidateId" class="btn btn-primary btn-sm me-1">Edit</a>
+                    <a asp-page="./Details" asp-route-id="@item.CandidateId" class="btn btn-info btn-sm me-1">Details</a>
+                    <a asp-page="./Delete" asp-route-id="@item.CandidateId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
