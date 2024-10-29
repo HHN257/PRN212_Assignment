@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_BusinessObject\\Candidate_BusinessObject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_BusinessObject\\Candidate_BusinessObject.csproj",
+        "projectName": "Candidate_BusinessObject",
+        "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_BusinessObject\\Candidate_BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\ACER Nitro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_BusinessObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj",
+        "projectName": "Candidate_DAO",
+        "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj",
+        "packagesPath": "C:\\Users\\ACER Nitro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_BusinessObject\\Candidate_BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_BusinessObject\\Candidate_BusinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj",
+        "projectName": "Candidate_Repository",
+        "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj",
+        "packagesPath": "C:\\Users\\ACER Nitro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj": {
+                "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_DAO\\Candidate_DAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj",
+        "projectName": "Candidate_Services",
+        "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj",
+        "packagesPath": "C:\\Users\\ACER Nitro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj": {
+                "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Repository\\Candidate_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam.csproj",
+        "projectName": "PRN211PE_FA24_TrialTest_HuuNam",
+        "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam.csproj",
+        "packagesPath": "C:\\Users\\ACER Nitro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\PRN211PE_FA24_TrialTest_HuuNam\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACER Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj": {
+                "projectPath": "C:\\Users\\ACER Nitro\\source\\repos\\PRN211PE_FA24_TrialTest_HuuNam\\Candidate_Services\\Candidate_Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
